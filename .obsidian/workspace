@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "2e41d78393ce23c1",
+    "id": "25eb0cba1939211d",
     "type": "split",
     "children": [
       {
-        "id": "684efb04702b9ccd",
+        "id": "a872ba802d31a1dc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Modelagem de sotfware/Aula 1.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1ad567db0b7191ca",
+    "id": "eff1fc1d03316faf",
     "type": "split",
     "children": [
       {
-        "id": "3cc1bd7b085c955f",
+        "id": "6e59ad8a1e1db215",
         "type": "tabs",
         "children": [
           {
-            "id": "af70a567ac60b8e1",
+            "id": "d8bbf76433269edf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "7af8763aa4983853",
+            "id": "2afe63dcb7295e9c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,6 +44,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "db201bceec25fd06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -56,20 +60,19 @@
     "width": 300
   },
   "right": {
-    "id": "f5164d85ec4d5500",
+    "id": "3bbc540f6502dbf5",
     "type": "split",
     "children": [
       {
-        "id": "ae859d1b12854708",
+        "id": "41be5318ae4865af",
         "type": "tabs",
         "children": [
           {
-            "id": "88a19598bf601ed7",
+            "id": "53e268fbaa70d202",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelagem de sotfware/Aula 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,6 +82,36 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "c6c9399953b4e63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c337da2a50857e54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f87195dec9c11ea4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ]
       }
@@ -87,8 +120,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "684efb04702b9ccd",
+  "active": "d8bbf76433269edf",
   "lastOpenFiles": [
+    "Pasted image 20220815094637.png",
+    "Pasted image 20220811113224.png",
+    "Pasted image 20220811113224 1.png",
+    "Sistemas Distribuídos/Apresentação de disciplina.md",
+    "Desenvolvimento web/Apresentação da disciplina.md",
+    "README.md",
     "Modelagem de sotfware/Aula 1.md"
   ]
 }

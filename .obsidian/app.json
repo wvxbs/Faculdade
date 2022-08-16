@@ -1,5 +1,3 @@
 {
-  "promptDelete": false,
-  "legacyEditor": false,
-  "livePreview": true
+  "promptDelete": false
 }
