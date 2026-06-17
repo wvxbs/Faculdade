@@ -1,0 +1,27 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Java
+*.class
+target/
+out/
+build/
+
+# C/C++ build outputs
+*.o
+*.out
+*.exe
+*.bin
+
+# Python/cache
+__pycache__/
+*.py[cod]
+
+# Logs/temp
+*.log
+.tmp/
+tmp/

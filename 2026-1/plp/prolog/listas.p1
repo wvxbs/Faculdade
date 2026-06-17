@@ -1,0 +1,39 @@
+duplic([], []).
+duplic([A | As], [A, A | X]) :-
+    duplic(As, X).
+
+/* genérico */
+enuplica([], _, []).
+enuplica([E | Es], N, R) :-
+    rpt(E, N, L),
+    enuplica(Es, N, T),
+    append(L, T, R).
+
+rpt(_, 0, []).
+rpt(E, N, [E | Es]) :-
+    N > 0,
+    N2 is N - 1,
+    rpt(E, N2, Es).
+
+/* Deletar primeira ocorrência de uma item em uma lista */
+delpri(_, [], []).
+delpri(E, [E | X], X).
+delpri(E, [A | As], [A | X]) :- delpri(E, As, X).
+
+/* Deletar todas as ocorrências de um item em uma lista: */
+
+delall(_, [], []).
+delall(E, [E | X], Y) :- delall(E, X, Y).
+delpri(E, [A | As], [A | X]) :- delall(E, As, X).
+
+/* Deletar menor elemento de uma lista: */
+/* recursivo puro: */
+menor(L, R) :- menor(L, ?, R). 
+/*recursivo com acumulador */
+menor([A | As], R) :- menor(As, A, R).
+menor([], M, R) :- R is M.
+% ou menor([], M, M).
+menor([A | As], M, R) :- A < M, menor(As < A, R).
+menor([_ | As], M, R) :- menor(As, M, R).
+
+maior(_ | )

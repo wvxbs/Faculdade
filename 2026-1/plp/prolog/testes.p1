@@ -1,0 +1,4 @@
+pai(joao, maria).
+pai(joao, pedro).
+
+filho(X, Y) :- pai(Y, X).
