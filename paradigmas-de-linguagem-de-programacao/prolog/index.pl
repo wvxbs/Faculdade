@@ -50,3 +50,5 @@ menorDaLista([A|X], M, R) :-
 	menorDaLista(X, A, R).
 menorDaLista([_|X], M, R) :- 
 	menorDaLista(X, M, R).
+
+

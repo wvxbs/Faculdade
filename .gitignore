@@ -25,3 +25,17 @@ __pycache__/
 *.log
 .tmp/
 tmp/
+
+*.jpg
+*.jpeg
+*.png
+/Users/wvxbs/Documents/repos/faculdade/inteligencia-artificial/Experimentando CNN com transfer learning com TensorFlow e PyTorch/fashion_mnist_amostra
+/Users/wvxbs/Documents/repos/faculdade/inteligencia-artificial/Experimentando CNN com transfer learning com TensorFlow e PyTorch/fashion_mnist_dataset
+/Users/wvxbs/Documents/repos/faculdade/inteligencia-artificial/redes-neurais/optical+recognition+of+handwritten+digits
+*.model-cache
+inteligencia-artificial/redes-neurais/optical+recognition+of+handwritten+digits/
+
+*.pkl
+*.joblib
+*.keras
+*.pth
